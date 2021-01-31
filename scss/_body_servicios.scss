@@ -1,0 +1,26 @@
+.body_servicios{
+
+	.carousel{
+		width: 50%;
+		margin-bottom: 5%;
+	}
+	.accordion-button{
+		color: white;
+	}
+
+	.accordion-button:focus{
+		border-color: #0D713E;
+		box-shadow: #0D713E;
+	}
+
+	.accordion-body{
+		color: white;
+	}
+
+	.accordion-button:not(.collapsed) {
+		background-color: transparent !important;
+	}
+
+
+
+}

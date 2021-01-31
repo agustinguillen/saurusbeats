@@ -1,0 +1,625 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+header {
+  position: fixed;
+  z-index: 2;
+  /*box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);*/
+  display: flex;
+  /*background-image: url("../assets/gif/estrellas2.gif");*/
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0;
+  margin: 0;
+  /*MOBILE*/
+  /*TABLET*/
+  /*DESKTOP*/ }
+  @media (min-width: 300px) {
+    header nav div #header__logo {
+      width: 30%;
+      margin-left: 40%; }
+    header nav div #navbarNav .nav-link {
+      color: white; } }
+  @media (min-width: 767px) {
+    header nav div button {
+      margin-top: 0%; }
+    header nav div #header__logo {
+      filter: drop-shadow(7px 7px 7px black);
+      width: 13%;
+      padding: 0;
+      margin: 0;
+      margin-left: 45%; }
+    header nav div #navbarNav .nav-link {
+      color: white; } }
+  @media (min-width: 1100px) {
+    header nav div #header__logo {
+      filter: drop-shadow(7px 7px 7px black);
+      width: 8%;
+      padding: 0;
+      margin: 0;
+      margin-left: 3%; }
+    header nav div #navbarNav .nav-link {
+      color: white; }
+    header nav div #navbarNav .nav-link:hover {
+      color: yellow;
+      text-shadow: #FFFF4E 1px 1px 5px; } }
+
+body {
+  background: #0b0b0b;
+  height: 100%;
+  /*MOBILE*/
+  /*TABLET*/
+  /*DESKTOP*/ }
+  @media (min-width: 300px) {
+    body h1 {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 200%;
+      color: white;
+      text-align: center;
+      margin-left: 1%;
+      padding-top: 50%;
+      padding-bottom: 3%;
+      position: relative; }
+    body .h1Animacion {
+      animation-name: opacidad;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: none; }
+    @keyframes opacidad {
+      0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0; }
+      100% {
+        filter: blur(0);
+        opacity: 1; } }
+    body #ultimoTitulo {
+      text-align: center;
+      font-family: Averia Libre;
+      color: white;
+      font-size: 150%; }
+    body .ultimo {
+      position: relative;
+      padding-bottom: 50%;
+      height: 100%;
+      overflow: hidden; }
+      body .ultimo iframe {
+        position: absolute;
+        padding-top: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 40%;
+        line-height: 0; }
+    body .fondo {
+      background-image: url("../assets/img/fondo.png");
+      background-repeat: no-repeat; }
+    body .card {
+      margin: 20%;
+      margin-top: 60%;
+      background-color: #d2d2d2;
+      color: black; }
+      body .card .btn-card {
+        background-color: #0D713E;
+        color: white; }
+    body .intro {
+      text-align: center;
+      padding: 0%;
+      position: relative;
+      height: 20%;
+      margin: 0;
+      margin-top: 5%; }
+      body .intro .intro__tarjeta {
+        overflow: hidden;
+        border: solid 2px white;
+        background-color: black;
+        padding: 1%;
+        display: inline-block;
+        width: 250px;
+        height: 200px;
+        padding: 2%;
+        margin: 2%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        color: white; }
+        body .intro .intro__tarjeta .intro__tarjeta__img {
+          height: 20%;
+          width: 25%;
+          border: none; } }
+  @media (min-width: 767px) {
+    body h1 {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 200%;
+      color: white;
+      text-align: center;
+      margin-left: 1%;
+      padding-top: 25%;
+      padding-bottom: 3%;
+      position: relative; }
+    body .h1Animacion {
+      animation-name: opacidad;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: none; }
+    @keyframes opacidad {
+      0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0; }
+      100% {
+        filter: blur(0);
+        opacity: 1; } }
+    body #ultimoTitulo {
+      text-align: center;
+      font-family: Averia Libre;
+      color: white;
+      font-size: 150%; }
+    body .ultimo {
+      position: relative;
+      padding-bottom: 50%;
+      height: 100%;
+      overflow: hidden; }
+      body .ultimo iframe {
+        position: absolute;
+        padding-top: 1%;
+        margin-left: 15%;
+        width: 70%;
+        height: 70%;
+        margin-bottom: 5%;
+        line-height: 0; }
+    body .fondo {
+      background-image: url("../assets/img/fondo.png");
+      background-repeat: no-repeat; }
+    body .card {
+      margin: 20%;
+      margin-top: 60%;
+      background-color: #d2d2d2;
+      color: black; }
+      body .card .btn-card {
+        background-color: #0D713E;
+        color: white; }
+    body .intro {
+      text-align: center;
+      padding: 0%;
+      position: relative;
+      height: 20%;
+      margin: 0;
+      margin-top: 5%; }
+      body .intro .intro__tarjeta {
+        overflow: hidden;
+        border: solid 2px white;
+        background-color: black;
+        padding: 1%;
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+        padding: 2%;
+        margin: 2%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        color: white; }
+        body .intro .intro__tarjeta .intro__tarjeta__img {
+          height: 20%;
+          width: 25%;
+          border: none; } }
+  @media (min-width: 1100px) {
+    body h1 {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 200%;
+      color: white;
+      text-align: center;
+      margin-left: 1%;
+      padding-top: 12%;
+      padding-bottom: 3%;
+      position: relative;
+      text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+    body .h1Animacion {
+      animation-name: opacidad;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: none; }
+    @keyframes opacidad {
+      0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0; }
+      100% {
+        filter: blur(0);
+        opacity: 1; } }
+    body #ultimoTitulo {
+      text-align: center;
+      font-family: Averia Libre;
+      color: white;
+      font-size: 150%; }
+    body .ultimo {
+      position: relative;
+      padding-bottom: 50%;
+      height: 80%;
+      overflow: hidden; }
+      body .ultimo iframe {
+        position: absolute;
+        padding-top: 1%;
+        margin-left: 15%;
+        margin-right: 5%;
+        width: 70%;
+        height: 70%;
+        margin-bottom: 5%;
+        line-height: 0; }
+    body .fondo {
+      background-image: url("../assets/img/fondo.png"); }
+    body .card {
+      margin-top: 80%;
+      margin-right: 15%;
+      background-color: #d2d2d2;
+      color: black; }
+      body .card .btn-card {
+        background-color: #0D713E;
+        color: white; }
+    body .intro {
+      text-align: center;
+      padding: 0%;
+      position: relative;
+      height: 20%;
+      margin: 0;
+      margin-top: 5%; }
+      body .intro .intro__tarjeta {
+        overflow: hidden;
+        border: solid 2px white;
+        background-color: black;
+        padding: 1%;
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+        padding: 2%;
+        margin: 2%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+        body .intro .intro__tarjeta .intro__tarjeta__img {
+          height: 20%;
+          width: 25%;
+          border: none; }
+      body .intro .intro__tarjeta:hover {
+        border: solid 2px yellow;
+        transition: 1s;
+        color: white; }
+      body .intro .intro__tarjeta h3 {
+        text-align: center;
+        padding-bottom: 5%;
+        padding: 0; } }
+
+.body_servicios .carousel {
+  width: 50%;
+  margin-bottom: 5%; }
+
+.body_servicios .accordion-button {
+  color: white; }
+
+.body_servicios .accordion-button:focus {
+  border-color: #0D713E;
+  box-shadow: #0D713E; }
+
+.body_servicios .accordion-body {
+  color: white; }
+
+.body_servicios .accordion-button:not(.collapsed) {
+  background-color: transparent !important; }
+
+.body_tracks .playlist {
+  width: 90%;
+  display: block; }
+  .body_tracks .playlist .playlist__h1 {
+    padding-top: 10%;
+    margin-left: 10%; }
+  .body_tracks .playlist .playlist__tabla {
+    padding-top: 0%;
+    margin-left: 10%; }
+    .body_tracks .playlist .playlist__tabla tr th {
+      color: white;
+      font-size: 150%;
+      font-family: Raleway;
+      font-weight: bold;
+      font-size: 130%;
+      border: 1px solid grey;
+      margin: auto;
+      padding: 1%; }
+    .body_tracks .playlist .playlist__tabla tr td {
+      font-family: Raleway;
+      font-weight: lighter;
+      padding: 1%;
+      border: 1px solid grey;
+      margin: auto; }
+      .body_tracks .playlist .playlist__tabla tr td h3 {
+        color: white;
+        font-size: 125%; }
+      .body_tracks .playlist .playlist__tabla tr td p {
+        color: white; }
+    .body_tracks .playlist .playlist__tabla .playlist__tabla__redes {
+      width: 5%;
+      margin-right: 5%;
+      margin-left: 5%; }
+
+.body_tracks .licencia {
+  text-align: center;
+  padding: 0%;
+  position: relative;
+  height: 20%;
+  margin: 0; }
+  .body_tracks .licencia .licencia__tarjeta {
+    color: white;
+    overflow: hidden;
+    border: solid 2px white;
+    background-color: black;
+    padding: 1%;
+    margin: 2%;
+    margin-top: 5%;
+    display: inline-block;
+    width: 25%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+
+@media (min-width: 1100px) {
+  .body_tracks .licencia__tarjeta:hover {
+    border: solid 2px yellow;
+    transition: 0.5s;
+    color: black;
+    background-color: grey; }
+  .body_tracks .licencia__tarjeta h3 {
+    text-align: center;
+    padding-bottom: 5%; } }
+
+body {
+  /*MOBILE*/
+  /*TABLET*/
+  /*DESKTOP*/ }
+  body .fondo_contacto {
+    background-image: url("../assets/img/fondo.png");
+    background-repeat: no-repeat; }
+    body .fondo_contacto form {
+      color: white; }
+      body .fondo_contacto form .form-check-input:checked {
+        background-color: #0D713E; }
+      body .fondo_contacto form .btn-primary {
+        background-color: #0D713E;
+        color: white;
+        border: white; }
+  @media (min-width: 300px) {
+    body .fondo_contacto h1 {
+      padding-top: 50%; }
+    body .fondo_contacto form .form-control {
+      width: 90%; }
+    body .fondo_contacto form .selector {
+      width: 50%; } }
+  @media (min-width: 767px) {
+    body .fondo_contacto {
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-bottom: 5%; }
+      body .fondo_contacto h1 {
+        padding-top: 25%; }
+      body .fondo_contacto form .selector {
+        width: 20%; } }
+  @media (min-width: 1100px) {
+    body .fondo_contacto {
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-bottom: 5%; }
+      body .fondo_contacto h1 {
+        padding-top: 12%; }
+      body .fondo_contacto form .selector {
+        width: 15%; }
+      body .fondo_contacto form .form-control {
+        width: 50%; }
+      body .fondo_contacto form .consulta {
+        width: 90%; } }
+
+body {
+  background: #0b0b0b;
+  height: 100%;
+  /*MOBILE*/
+  /*TABLET*/
+  /*DESKTOP*/ }
+  body .carousel {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 4%; }
+  @media (min-width: 300px) {
+    body .cuerpo .contenedor article {
+      color: white;
+      margin: 7%; }
+    body .cuerpo .carousel {
+      width: 90%; } }
+  @media (min-width: 767px) {
+    body .cuerpo .contenedor article {
+      color: white;
+      margin: 5%; } }
+  @media (min-width: 1100px) {
+    body .cuerpo {
+      margin-top: 0%; }
+      body .cuerpo .carousel {
+        width: 40%; }
+      body .cuerpo .contenedor article {
+        color: white;
+        margin: 5%;
+        margin-top: 0; }
+      body .cuerpo h1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 200%;
+        color: white;
+        text-align: center;
+        margin-left: 1%;
+        padding-top: 9%;
+        padding-bottom: 3%;
+        position: relative;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+      body .cuerpo .cuerpo__h1 {
+        animation-name: opacidad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none; }
+    @keyframes opacidad {
+      0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0; }
+      100% {
+        filter: blur(0);
+        opacity: 1; } }
+      body .cuerpo .about {
+        text-align: center;
+        padding: 0%;
+        position: relative;
+        height: 20%;
+        margin: 0;
+        margin-top: 5%; }
+        body .cuerpo .about .about__tarjeta {
+          overflow: hidden;
+          border: solid 2px white;
+          padding: 1%;
+          display: inline-block;
+          width: 250px;
+          height: 300px;
+          padding: 2%;
+          margin: 2%;
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+          /*color: white;*/ }
+        body .cuerpo .about .about__tarjeta--musico {
+          color: red; }
+        body .cuerpo .about .about__tarjeta--productor {
+          color: blue; }
+        body .cuerpo .about .about__tarjeta--beatmaker {
+          color: green; } }
+
+.footer {
+  margin: 0%;
+  margin-top: 70%;
+  position: relative;
+  margin-bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  /*MOBILE*/
+  /*TABLET*/
+  /*DESKTOP*/ }
+  @media (min-width: 300px) {
+    .footer {
+      background-color: black;
+      height: 10%;
+      width: 100%;
+      margin: 0%;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-top: 10%;
+      box-shadow: 10px 5px 5px black; }
+      .footer .footer__div {
+        padding: 0;
+        margin: 0; }
+        .footer .footer__div .redes {
+          padding: 2%;
+          height: 15%;
+          width: 15%;
+          margin: 5%;
+          margin-left: 10%; }
+        .footer .footer__div h3 {
+          font-family: Raleway;
+          color: white;
+          text-align: left;
+          margin-left: 10%;
+          margin-top: 5%;
+          padding-top: 3%;
+          padding-bottom: 3%; }
+        .footer .footer__div p {
+          font-family: Raleway;
+          font-size: 100%;
+          font-weight: lighter;
+          color: white;
+          margin-left: 10%; } }
+  @media (min-width: 767px) {
+    .footer {
+      background-color: black;
+      height: 50%;
+      width: 100%;
+      margin: 0%;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-top: 10%;
+      box-shadow: 10px 5px 5px black; }
+      .footer .footer_div {
+        margin-left: 15%; }
+        .footer .footer_div .redes {
+          padding: 1%;
+          height: 5%;
+          width: 5%; }
+        .footer .footer_div h3 {
+          font-family: Raleway;
+          color: white;
+          text-align: left;
+          margin-left: 5%;
+          padding-top: 3%;
+          padding-bottom: 3%; }
+        .footer .footer_div p {
+          font-family: Raleway;
+          font-size: 100%;
+          font-weight: lighter;
+          color: white;
+          margin-left: 5%; } }
+  @media (min-width: 1100px) {
+    .footer {
+      background-color: black;
+      height: 10%;
+      width: 100%;
+      margin: 0%;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-top: 10%;
+      box-shadow: 10px 5px 5px black; }
+      .footer .footer__div {
+        padding: 1%; }
+        .footer .footer__div .redes {
+          padding: 2.5%;
+          height: 10%;
+          width: 10%;
+          margin: 1%; }
+        .footer .footer__div .redes:hover {
+          height: 7%;
+          width: 7%;
+          padding: 2%;
+          transition: 1s; }
+        .footer .footer__div .redes:not(:hover) {
+          width: 7%;
+          transition: 1s; }
+        .footer .footer__div h3 {
+          font-family: Raleway;
+          color: white;
+          text-align: left;
+          margin-left: 1%;
+          padding-top: 1%;
+          padding-bottom: 3%; }
+        .footer .footer__div p {
+          font-family: Raleway;
+          font-size: 100%;
+          font-weight: lighter;
+          color: white;
+          margin-left: 1%; } }

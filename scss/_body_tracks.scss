@@ -1,0 +1,85 @@
+.body_tracks{
+	.playlist{
+		width: 90%;
+    	display: block;
+        .playlist__h1{
+            padding-top: 10%;
+            margin-left: 10%;
+        }
+    	.playlist__tabla{
+    		padding-top: 0%;
+    		margin-left: 10%;
+    		tr{
+    			th{
+    				color: white;
+    				font-size: 150%;
+    				font-family: Raleway;
+        			font-weight: bold;
+        			font-size: 130%;
+        			border: 1px solid grey;
+        			margin: auto;
+        			padding: 1%;
+        			
+    			}
+    			td{
+    				font-family: Raleway;
+        			font-weight: lighter;
+        			padding: 1%;
+        			border: 1px solid grey;
+        			margin: auto;
+    				h3{
+    					color: white;
+    					font-size: 125%;
+    				}
+
+    				p{ color: white; 
+    				}
+    			}
+    		}
+    		.playlist__tabla__redes{
+    					width: 5%;
+                        margin-right: 5%;
+                        margin-left: 5%;
+
+    				}
+    	}
+	}
+
+	.licencia{
+		text-align: center;
+    	padding: 0%;
+    	position: relative;
+    	height: 20%;
+    	margin: 0;
+		.licencia__tarjeta{
+			color: white;
+			overflow: hidden;
+    		border: solid 2px white;
+    		background-color: black;
+      		padding: 1%;
+      		margin: 2%;
+      		margin-top: 5%;
+      		display: inline-block;
+      		width: 25%;
+      		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+		}
+	}
+
+
+	@media (min-width: 1100px){
+
+
+       .licencia__tarjeta:hover {
+           border: solid 2px yellow;
+           transition: 0.5s;
+           color: black;
+           background-color: grey;
+       }
+
+       .licencia__tarjeta h3 {
+           text-align: center;
+           padding-bottom: 5%;
+       }
+       }
+
+       }

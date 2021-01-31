@@ -1,0 +1,134 @@
+body{
+	background: #0b0b0b;
+	height: 100%;
+
+	.carousel{
+        width: 50%;
+        margin:auto;
+        margin-bottom: 4%;
+    }
+
+
+
+	/*MOBILE*/
+	@media (min-width: 300px){
+		.cuerpo{
+			.contenedor{
+				article{
+					color: white;
+					margin:7%;
+				}
+			}
+
+			.carousel{
+				width: 90%;
+			}
+		}
+
+	}
+
+	/*TABLET*/
+	@media (min-width: 767px){
+		.cuerpo{
+			.contenedor{
+				article{
+					color: white;
+					margin:5%;
+				}
+			}
+		}
+
+
+	}
+
+		/*DESKTOP*/
+	@media (min-width: 1100px) {
+	    .cuerpo {
+	        margin-top: 0%;
+
+	        .carousel {
+	            width: 40%;
+	        }
+
+	        .contenedor {
+	            article {
+	                color: white;
+	                margin: 5%;
+	                margin-top: 0;
+	            }
+
+	        }
+
+	        h1 {
+	            font-family: Lato;
+	            font-style: normal;
+	            font-weight: 100;
+	            font-size: 200%;
+	            color: white;
+	            text-align: center;
+	            margin-left: 1%;
+	            padding-top: 9%;
+	            padding-bottom: 3%;
+	            position: relative;
+	            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	        }
+
+	        .cuerpo__h1 {
+	            animation-name: opacidad;
+	            animation-duration: 1s;
+	            animation-timing-function: ease;
+	            animation-delay: 0s;
+	            animation-iteration-count: 1;
+	            animation-direction: normal;
+	            animation-fill-mode: none;
+	        }
+
+	        @keyframes opacidad {
+	            0% {
+	                letter-spacing: 1em;
+	                filter: blur(12px);
+	                opacity: 0;
+	            }
+
+	            100% {
+	                filter: blur(0);
+	                opacity: 1;
+	            }
+
+	        }
+
+	        .about {
+	            text-align: center;
+	            padding: 0%;
+	            position: relative;
+	            height: 20%;
+	            margin: 0;
+	            margin-top: 5%;
+
+	            .about__tarjeta {
+		            overflow: hidden;
+	                border: solid 2px white;
+	                padding: 1%;
+	                display: inline-block;
+	                width: 250px;
+	                height: 300px;
+	                padding: 2%;
+	                margin: 2%;
+	                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	                /*color: white;*/
+	            	}
+	                $fondo:(
+	                	"musico": red,
+	                	"productor": blue,
+	                	"beatmaker": green);
+
+	                @each $modificador, $color in $fondo{
+	                		.about__tarjeta--#{$modificador}{
+	                			color: $color;
+	                		}
+	                	}
+            	
+        }
+    }
+}
+}
