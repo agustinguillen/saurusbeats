@@ -6,6 +6,9 @@
 body{
 	background: #0b0b0b;
 	height: 100%;
+	p{
+		color: white;
+	}
 /*MOBILE*/
 	@media (min-width: 300px){
 			h1{
@@ -64,13 +67,14 @@ body{
 		    }
 		    .card{
 		    	margin:20%;
+		    	/*margin-right: 40%;*/
 		    	margin-top: 60%;
 		    	background-color: #d2d2d2;
-		    	color:black;
+		    	color:red;
 
 		    	.btn-card{
 		    		background-color: #0D713E;
-		    		color:white;
+		    		color:black;
 		    	}
 		    }
 
@@ -215,7 +219,7 @@ body{
 	        color: white;
 	        text-align: center;
 	        margin-left: 1%;
-	        padding-top: 12%;
+	        padding-top: 9%;
 	        padding-bottom: 3%;
 	        position: relative;
 	        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -244,16 +248,19 @@ body{
 
 	    .ultimo{
 	    	position: relative;
-	        padding-bottom: 50%;
-	        height: 80%;
+	        padding-bottom: 0%;
+	        margin-bottom: 1%;
+	        height: 100%;
 	        overflow: hidden;
+	        margin-right: 0%;
 	        iframe{
 	        	 position: absolute;
-	        	padding-top: 1%;
+	        	padding-top: 5%;
+	        	padding-bottom:1%;
 	        	margin-left: 15%;
 	        	margin-right: 5%;
 	        	width: 70%;
-	        	height: 70%;
+	        	height: 83%;
 	        	margin-bottom: 5%;
 	        	line-height: 0;
 
@@ -262,11 +269,21 @@ body{
 
 	    .fondo{
 	    	background-image: url("../assets/img/fondo.png");
+	    	.parrafo{
+	    		margin-left: 10%;
+	    		width: 45%;
+	    		p{
+					
+					margin-top: 0;
+				}
+			}
 	    }
 
 	    .card{
-	    	margin-top: 80%;
-	    	margin-right: 15%;
+	    	margin-top: 17%;
+	    	margin-right: 30%;
+	    	margin-left: 9%;
+	    	width: 250px;
 	    	background-color: #d2d2d2;
 	    	color:black;
 	    	

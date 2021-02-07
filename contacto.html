@@ -47,14 +47,14 @@
 		
 		<h1 class="h1Animacion">CONTACTAME!</h1>
 				
-		<form>
+		<form class="needs-validation" novalidate>
 		  <div class="mb-3">
 		  	<label for="nombre" class="form-label">Nombre: </label>
-            <input type="text" name="nombre" placeholder="Escriba su nombre" class="form-control">
+            <input type="text" name="nombre" placeholder="Escriba su nombre" class="form-control" required>
 		  </div>
 		  <div class="mb-3">
 		    <label for="exampleInputEmail1" class="form-label">Email address</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su dirección de email">
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su dirección de email" required>
 		    <div id="emailHelp" class="form-text">Nunca compartiremos tu mail con nadie más.</div>
 		  </div>
 		  <div class="mb-3">
@@ -67,7 +67,7 @@
 		  </div>
 		  <div class="mb-3">
 		  	<label for="consulta" class="form-label">Consulta: </label><br>
-            <textarea name="consulta" rows="5" class="form-control consulta" placeholder="Escriba su consulta aquí"></textarea>
+            <textarea name="consulta" rows="5" class="form-control consulta" placeholder="Escriba su consulta aquí" required></textarea>
 		  </div>
 		  <div class="mb-3 form-check">
 		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -122,5 +122,6 @@
 	    </div>
 	</footer>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
 </body>
 </html>
