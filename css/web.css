@@ -609,7 +609,8 @@ body {
       margin-top: 10%;
       box-shadow: 10px 5px 5px black; }
       .footer .footer__div {
-        padding: 1%; }
+        padding: 1%;
+        padding-bottom: 0; }
         .footer .footer__div .redes {
           padding: 2.5%;
           height: 15%;
@@ -635,4 +636,26 @@ body {
           font-size: 100%;
           font-weight: lighter;
           color: white;
-          margin-left: 1%; } }
+          margin-left: 1%; }
+        .footer .footer__div .links {
+          margin-top: 3%;
+          margin-bottom: 3%;
+          text-align: right; }
+          .footer .footer__div .links .nav-link {
+            color: white; }
+          .footer .footer__div .links .nav-link:hover {
+            color: yellow;
+            text-shadow: #FFFF4E 1px 1px 5px; }
+      .footer .footer__div2 {
+        padding: 1%;
+        padding-bottom: 0; }
+        .footer .footer__div2 .creditos {
+          text-align: center;
+          color: white;
+          background-color: black; }
+          .footer .footer__div2 .creditos p {
+            margin-top: 0;
+            padding-top: 0;
+            font-family: Alegreya Sans SC;
+            font-size: 70%;
+            font-weight: lighter; } }
