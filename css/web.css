@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Raleway:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
@@ -244,7 +243,7 @@ body {
         opacity: 1; } }
     body #ultimoTitulo {
       text-align: center;
-      font-family: Averia Libre;
+      font-family: Lato;
       color: white;
       font-size: 150%; }
     body .ultimo {
@@ -268,6 +267,7 @@ body {
       background-image: url("../assets/img/fondo.png"); }
       body .fondo .parrafo {
         margin-left: 10%;
+        margin-bottom: 5%;
         width: 45%; }
         body .fondo .parrafo p {
           margin-top: 0; }
@@ -291,7 +291,8 @@ body {
       body .intro .intro__tarjeta {
         overflow: hidden;
         border: solid 2px white;
-        background-color: black;
+        /*background-color: black;*/
+        background-image: url("../assets/gif/estrellas2.gif");
         padding: 1%;
         display: inline-block;
         width: 250px;
@@ -313,8 +314,13 @@ body {
         padding: 0; } }
 
 .body_servicios .carousel {
-  width: 50%;
+  width: 70%;
   margin-bottom: 5%; }
+
+.body_servicios .card__servicios {
+  margin-top: 17%;
+  margin-right: 30%;
+  margin-left: 9%; }
 
 .body_servicios .accordion-button {
   color: white; }
@@ -374,6 +380,7 @@ body {
     overflow: hidden;
     border: solid 2px white;
     background-color: black;
+    /*background-image: url("../assets/gif/estrellas2.gif");*/
     padding: 1%;
     margin: 2%;
     margin-top: 5%;
@@ -550,7 +557,8 @@ body {
           height: 15%;
           width: 15%;
           margin: 5%;
-          margin-left: 10%; }
+          margin-left: 10%;
+          margin-bottom: 0; }
         .footer .footer__div h3 {
           font-family: Raleway;
           color: white;
@@ -612,17 +620,17 @@ body {
         padding: 1%;
         padding-bottom: 0; }
         .footer .footer__div .redes {
-          padding: 2.5%;
-          height: 15%;
-          width: 15%;
-          margin: 1%; }
+          padding: 1%;
+          height: 18%;
+          width: 18%;
+          margin: 2%; }
         .footer .footer__div .redes:hover {
-          height: 7%;
-          width: 7%;
-          padding: 2%;
-          transition: 1s; }
+          height: 6%;
+          width: 6%;
+          transition: 1s;
+          padding: 0; }
         .footer .footer__div .redes:not(:hover) {
-          width: 7%;
+          width: 6%;
           transition: 1s; }
         .footer .footer__div h3 {
           font-family: Raleway;
@@ -639,7 +647,7 @@ body {
           margin-left: 1%; }
         .footer .footer__div .links {
           margin-top: 3%;
-          margin-bottom: 3%;
+          margin-bottom: 0%;
           text-align: right; }
           .footer .footer__div .links .nav-link {
             color: white; }
@@ -647,15 +655,21 @@ body {
             color: yellow;
             text-shadow: #FFFF4E 1px 1px 5px; }
       .footer .footer__div2 {
-        padding: 1%;
-        padding-bottom: 0; }
+        padding: 0;
+        padding-bottom: 0;
+        margin: 0; }
+        .footer .footer__div2 .linkedin {
+          width: 2%;
+          margin-bottom: 1%; }
         .footer .footer__div2 .creditos {
           text-align: center;
           color: white;
-          background-color: black; }
+          background-color: black;
+          margin: 0;
+          padding-top: 0; }
           .footer .footer__div2 .creditos p {
             margin-top: 0;
             padding-top: 0;
-            font-family: Alegreya Sans SC;
+            font-family: Raleway;
             font-size: 70%;
             font-weight: lighter; } }

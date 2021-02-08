@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
@@ -241,7 +240,7 @@ body{
 	    }
 	    #ultimoTitulo {
 	        text-align: center;
-	        font-family: Averia Libre;
+	        font-family: Lato;
 	        color: white;
 	        font-size: 150%;
 	    }
@@ -271,6 +270,7 @@ body{
 	    	background-image: url("../assets/img/fondo.png");
 	    	.parrafo{
 	    		margin-left: 10%;
+	    		margin-bottom: 5%;
 	    		width: 45%;
 	    		p{
 					
@@ -306,7 +306,8 @@ body{
 		    .intro__tarjeta{
 		    	overflow: hidden;
 		    	border: solid 2px white;
-		    	background-color: black;
+		    	/*background-color: black;*/
+		    	background-image: url("../assets/gif/estrellas2.gif");
 		      	padding: 1%;
 		      	display: inline-block;
 		      	width: 250px;
