@@ -2,341 +2,400 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
-body{
-	background: #0b0b0b;
-	height: 100%;
-	p{
-		color: white;
-	}
-/*MOBILE*/
-	@media (min-width: 300px){
-			h1{
-				font-family: Lato;
-		        font-style: normal;
-		        font-weight: 100;
-		        font-size: 200%;
-		        color: white;
-		        text-align: center;
-		        margin-left: 1%;
-		        padding-top: 50%;
-		        padding-bottom: 3%;
-		        position: relative;
-			}
-			.h1Animacion{
-		        animation-name: opacidad;
-		        animation-duration: 1s;
-		        animation-timing-function: ease;
-		        animation-delay: 0s;
-		        animation-iteration-count: 1;
-		        animation-direction: normal;
-		        animation-fill-mode: none;
-		    }
+body {
+    background: #0b0b0b;
+    height: 100%;
 
-		     @keyframes opacidad{
-		        0%{letter-spacing: 1em;filter: blur(12px);opacity: 0;}
-		        100%{filter: blur(0);opacity: 1;}
+    p {
+        color: white;
+    }
 
-		    }
-		    #ultimoTitulo {
-		        text-align: center;
-		        font-family: Averia Libre;
-		        color: white;
-		        font-size: 150%;
-		    }
+    /*MOBILE*/
+    @media (min-width: 300px) {
+        h1 {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 200%;
+            color: white;
+            text-align: center;
+            margin-left: 1%;
+            padding-top: 50%;
+            padding-bottom: 3%;
+            position: relative;
+        }
 
-		    .ultimo{
-		    	position: relative;
-		        padding-bottom: 50%;
-		        height: 100%;
-		        overflow: hidden;
-		        iframe{
-		        	 position: absolute;
-		        	padding-top: 1%;
-		        	margin-left: 5%;
-		        	margin-right: 5%;
-		        	width: 90%;
-		        	height: 40%;
-		        	line-height: 0;
+        .h1Animacion {
+            animation-name: opacidad;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: none;
+        }
 
-		        }
-		    }
-		    .fondo{
-		    	background-image: url("../assets/img/fondo.png");
-		    	background-repeat: no-repeat;
-		    }
-		    .card{
-		    	margin:20%;
-		    	/*margin-right: 40%;*/
-		    	margin-top: 60%;
-		    	background-color: #d2d2d2;
-		    	color:red;
+        @keyframes opacidad {
+            0% {
+                letter-spacing: 1em;
+                filter: blur(12px);
+                opacity: 0;
+            }
 
-		    	.btn-card{
-		    		background-color: #0D713E;
-		    		color:black;
-		    	}
-		    }
+            100% {
+                filter: blur(0);
+                opacity: 1;
+            }
 
-		    .intro{
-	    	text-align: center;
-	    	padding: 0%;
-	    	position: relative;
-	    	height: 20%;
-	    	margin: 0;
-	    	margin-top: 5%;
+        }
 
-			    .intro__tarjeta{
-			    	overflow: hidden;
-			    	border: solid 2px white;
-			    	background-color: black;
-			      	padding: 1%;
-			      	display: inline-block;
-			      	width: 250px;
-			      	height: 200px;
-			      	padding:2%;
-			      	margin:2%;
-			      	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-			      	color:white;
+        #ultimoTitulo {
+            text-align: center;
+            font-family: Averia Libre;
+            color: white;
+            font-size: 150%;
+        }
 
-			      	.intro__tarjeta__img{
-			      		height: 20%;
-		      			width: 25%;
-		      			border:none;
-			      	}
-			    }
-			}
-		}
+        .ultimo {
+            position: relative;
+            padding-bottom: 50%;
+            height: 100%;
+            overflow: hidden;
 
+            iframe {
+                position: absolute;
+                padding-top: 1%;
+                margin-left: 5%;
+                margin-right: 5%;
+                width: 90%;
+                height: 40%;
+                line-height: 0;
 
-	/*TABLET*/
-	@media (min-width: 767px){
-		h1{
-			font-family: Lato;
-	        font-style: normal;
-	        font-weight: 100;
-	        font-size: 200%;
-	        color: white;
-	        text-align: center;
-	        margin-left: 1%;
-	        padding-top: 25%;
-	        padding-bottom: 3%;
-	        position: relative;
-		}
-		.h1Animacion{
-	        animation-name: opacidad;
-	        animation-duration: 1s;
-	        animation-timing-function: ease;
-	        animation-delay: 0s;
-	        animation-iteration-count: 1;
-	        animation-direction: normal;
-	        animation-fill-mode: none;
-	    }
+            }
+        }
 
-	     @keyframes opacidad{
-	        0%{letter-spacing: 1em;filter: blur(12px);opacity: 0;}
-	        100%{filter: blur(0);opacity: 1;}
+        .fondo {
+            background-image: url("../assets/img/fondo.png");
+            background-repeat: no-repeat;
+        }
 
-	    }
-	    #ultimoTitulo {
-	        text-align: center;
-	        font-family: Averia Libre;
-	        color: white;
-	        font-size: 150%;
-	    }
+        .card {
+            margin: 20%;
+            /*margin-right: 40%;*/
+            margin-top: 60%;
+            background-color: #d2d2d2;
+            color: red;
 
-	    .ultimo{
-	    	position: relative;
-	        padding-bottom: 50%;
-	        height: 100%;
-	        overflow: hidden;
-	        iframe{
-	        	 position: absolute;
-	        	padding-top: 1%;
-	        	margin-left: 15%;
-	        	width: 70%;
-	        	height: 70%;
-	        	margin-bottom: 5%;
-	        	line-height: 0;
+            .btn-card {
+                background-color: #0D713E;
+                color: black;
+            }
+        }
 
-	        }
-	    }
-	    .fondo{
-	    	background-image: url("../assets/img/fondo.png");
-	    	background-repeat: no-repeat;
-	    }
-	    .card{
-	    	margin:20%;
-	    	margin-top: 60%;
-	    	background-color: #d2d2d2;
-	    	color:black;
+        .intro {
+            text-align: center;
+            padding: 0%;
+            position: relative;
+            height: 20%;
+            margin: 0;
+            margin-top: 5%;
 
-	    	.btn-card{
-	    		background-color: #0D713E;
-	    		color:white;
-	    	}
-	    }
+            .intro__tarjeta {
+                overflow: hidden;
+                border: solid 2px white;
+                background-color: black;
+                padding: 1%;
+                display: inline-block;
+                width: 250px;
+                height: 200px;
+                padding: 2%;
+                margin: 2%;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+                color: white;
 
-	    .intro{
-    	text-align: center;
-    	padding: 0%;
-    	position: relative;
-    	height: 20%;
-    	margin: 0;
-    	margin-top: 5%;
-
-		    .intro__tarjeta{
-		    	overflow: hidden;
-		    	border: solid 2px white;
-		    	background-color: black;
-		      	padding: 1%;
-		      	display: inline-block;
-		      	width: 250px;
-		      	height: 300px;
-		      	padding:2%;
-		      	margin:2%;
-		      	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-		      	color:white;
-
-		      	.intro__tarjeta__img{
-		      		height: 20%;
-		      		width: 25%;
-		      		border:none;
-		      	}
-		    }
-		}
-	}
+                .intro__tarjeta__img {
+                    height: 20%;
+                    width: 25%;
+                    border: none;
+                }
+            }
+        }
+    }
 
 
-	/*DESKTOP*/
-	@media (min-width: 1100px){
+    /*TABLET*/
+    @media (min-width: 767px) {
+        h1 {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 200%;
+            color: white;
+            text-align: center;
+            margin-left: 1%;
+            padding-top: 25%;
+            padding-bottom: 3%;
+            position: relative;
+        }
 
-		h1{
-			font-family: Lato;
-	        font-style: normal;
-	        font-weight: 100;
-	        font-size: 200%;
-	        color: white;
-	        text-align: center;
-	        margin-left: 1%;
-	        padding-top: 9%;
-	        padding-bottom: 3%;
-	        position: relative;
-	        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-		}
-		.h1Animacion{
-	        animation-name: opacidad;
-	        animation-duration: 1s;
-	        animation-timing-function: ease;
-	        animation-delay: 0s;
-	        animation-iteration-count: 1;
-	        animation-direction: normal;
-	        animation-fill-mode: none;
-	    }
+        .h1Animacion {
+            animation-name: opacidad;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: none;
+        }
 
-	     @keyframes opacidad{
-	        0%{letter-spacing: 1em;filter: blur(12px);opacity: 0;}
-	        100%{filter: blur(0);opacity: 1;}
+        @keyframes opacidad {
+            0% {
+                letter-spacing: 1em;
+                filter: blur(12px);
+                opacity: 0;
+            }
 
-	    }
-	    #ultimoTitulo {
-	        text-align: center;
-	        font-family: Lato;
-	        color: white;
-	        font-size: 150%;
-	    }
+            100% {
+                filter: blur(0);
+                opacity: 1;
+            }
 
-	    .ultimo{
-	    	position: relative;
-	        padding-bottom: 0%;
-	        margin-bottom: 1%;
-	        height: 100%;
-	        overflow: hidden;
-	        margin-right: 0%;
-	        iframe{
-	        	 position: absolute;
-	        	padding-top: 5%;
-	        	padding-bottom:1%;
-	        	margin-left: 15%;
-	        	margin-right: 5%;
-	        	width: 70%;
-	        	height: 83%;
-	        	margin-bottom: 5%;
-	        	line-height: 0;
+        }
 
-	        }
-	    }
+        #ultimoTitulo {
+            text-align: center;
+            font-family: Averia Libre;
+            color: white;
+            font-size: 150%;
+        }
 
-	    .fondo{
-	    	background-image: url("../assets/img/fondo.png");
-	    	.parrafo{
-	    		margin-left: 10%;
-	    		margin-bottom: 5%;
-	    		width: 45%;
-	    		p{
-					
-					margin-top: 0;
-				}
-			}
-	    }
+        .ultimo {
+            position: relative;
+            padding-bottom: 50%;
+            height: 100%;
+            overflow: hidden;
 
-	    .card{
-	    	margin-top: 17%;
-	    	margin-right: 30%;
-	    	margin-left: 9%;
-	    	width: 250px;
-	    	background-color: #d2d2d2;
-	    	color:black;
-	    	
-	    	.btn-card{
-	    		background-color: #0D713E;
-	    		color:white;
-	    	}
-	    }
+            iframe {
+                position: absolute;
+                padding-top: 2%;
+                margin-left: 15%;
+                width: 70%;
+                height: 80%;
+                margin-bottom: 10%;
+                line-height: 0;
+
+            }
+        }
+
+        .fondo {
+            background-image: url("../assets/img/fondo.png");
+            background-repeat: no-repeat;
+            .parrafo {
+                margin-left: 10%;
+                margin-bottom: 0%;
+                width: 80%;
+
+                p {
+                    font-size: 150%;
+                    margin-top: -140%;
+                }
+            }
+        }
+
+        .card {
+            margin: 20%;
+            margin-top: 40%;
+            background-color: #d2d2d2;
+            color: black;
+
+            .btn-card {
+                background-color: #0D713E;
+                color: white;
+            }
+        }
+
+        .intro {
+            text-align: center;
+            padding: 0%;
+            position: relative;
+            height: 30%;
+            margin: 0;
+            margin-top: 5%;
+
+            .intro__tarjeta {
+                overflow: hidden;
+                border: solid 2px white;
+                /*background-color: black;*/
+                background-image: url("../assets/gif/estrellas2.gif");
+                padding: 1%;
+                display: inline-block;
+                width: 300px;
+                height: 350px;
+                padding: 2%;
+                margin: 2%;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+                color: white;
+
+                .intro__tarjeta__img {
+                    height: 20%;
+                    width: 25%;
+                    border: none;
+                }
+
+                p{
+                    font-size: 150%;
+                }
+            }
+        }
+    }
+
+
+    /*DESKTOP*/
+    @media (min-width: 1100px) {
+
+        h1 {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 200%;
+            color: white;
+            text-align: center;
+            margin-left: 1%;
+            padding-top: 9%;
+            padding-bottom: 3%;
+            position: relative;
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .h1Animacion {
+            animation-name: opacidad;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: none;
+        }
+
+        @keyframes opacidad {
+            0% {
+                letter-spacing: 1em;
+                filter: blur(12px);
+                opacity: 0;
+            }
+
+            100% {
+                filter: blur(0);
+                opacity: 1;
+            }
+
+        }
+
+        #ultimoTitulo {
+            text-align: center;
+            font-family: Lato;
+            color: white;
+            font-size: 150%;
+        }
+
+        .ultimo {
+            position: relative;
+            padding-bottom: 0%;
+            margin-bottom: 1%;
+            height: 100%;
+            overflow: hidden;
+            margin-right: 0%;
+
+            iframe {
+                position: absolute;
+                padding-top: 5%;
+                padding-bottom: 1%;
+                margin-left: 15%;
+                margin-right: 5%;
+                width: 70%;
+                height: 83%;
+                margin-bottom: 5%;
+                line-height: 0;
+
+            }
+        }
+
+        .fondo {
+            background-image: url("../assets/img/fondo.png");
+
+            .parrafo {
+                margin-left: 10%;
+                margin-bottom: 5%;
+                width: 45%;
+
+                p {
+
+                    margin-top: 0;
+                }
+            }
+        }
+
+        .card {
+            margin-top: 17%;
+            margin-right: 30%;
+            margin-left: 9%;
+            width: 250px;
+            background-color: #d2d2d2;
+            color: black;
+
+            .btn-card {
+                background-color: #0D713E;
+                color: white;
+            }
+        }
 
 
 
-	    .intro{
-    	text-align: center;
-    	padding: 0%;
-    	position: relative;
-    	height: 20%;
-    	margin: 0;
-    	margin-top: 5%;
+        .intro {
+            text-align: center;
+            padding: 0%;
+            position: relative;
+            height: 20%;
+            margin: 0;
+            margin-top: 5%;
 
-		    .intro__tarjeta{
-		    	overflow: hidden;
-		    	border: solid 2px white;
-		    	/*background-color: black;*/
-		    	background-image: url("../assets/gif/estrellas2.gif");
-		      	padding: 1%;
-		      	display: inline-block;
-		      	width: 250px;
-		      	height: 300px;
-		      	padding:2%;
-		      	margin:2%;
-		      	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            .intro__tarjeta {
+                overflow: hidden;
+                border: solid 2px white;
+                /*background-color: black;*/
+                background-image: url("../assets/gif/estrellas2.gif");
+                padding: 1%;
+                display: inline-block;
+                width: 250px;
+                height: 300px;
+                padding: 2%;
+                margin: 2%;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
-		      	.intro__tarjeta__img{
-		      		height: 20%;
-		      		width: 25%;
-		      		border:none;
-		      	}
-		    }
+                .intro__tarjeta__img {
+                    height: 20%;
+                    width: 25%;
+                    border: none;
+                }
 
-		    .intro__tarjeta:hover{
-		        border: solid 2px yellow;
-		        transition: 1s;
-		        color: white;
-		    }
+                p{
+                    font-size: 100%;
+                }
+            }
 
-		    .intro__tarjeta h3{
-		    	text-align: center;
-		    	padding-bottom: 5%;
-		    	padding:0;
-		    }
-		}
-	}
+            .intro__tarjeta:hover {
+                border: solid 2px yellow;
+                transition: 1s;
+                color: white;
+            }
+
+            .intro__tarjeta h3 {
+                text-align: center;
+                padding-bottom: 5%;
+                padding: 0;
+            }
+        }
+    }
 
 
 }
-

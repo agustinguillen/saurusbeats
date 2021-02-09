@@ -1,33 +1,108 @@
 .body_servicios{
 
-	.carousel{
-		width: 70%;
-		margin-bottom: 5%;
+	/*MOBILE*/
+	@media (min-width: 300px) {
+		
+		.carousel{
+			width: 70%;
+			margin-bottom: 5%;
+		}
+
+		.card__servicios{
+				margin-top: 17%;
+		    	margin-right: 30%;
+		    	margin-left: 30%;
+		}
+
+		.accordion-button{
+			color: white;
+		}
+
+		.accordion-button:focus{
+			border-color: #0D713E;
+			box-shadow: #0D713E;
+		}
+
+		.accordion-body{
+			color: white;
+		}
+
+		.accordion-button:not(.collapsed) {
+			background-color: transparent !important;
+		}
+
 	}
 
-	.card__servicios{
-			margin-top: 17%;
-	    	margin-right: 30%;
-	    	margin-left: 9%;
+	/*TABLET*/
+	@media (min-width: 767px) {
+		
+		.carousel{
+			width: 85%;
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+
+		.card__servicios{
+				margin-top: 17%;
+		    	margin-right: 18%;
+		    	margin-left: 18%;
+		}
+
+		.accordion-button{
+			color: white;
+			font-size: 125%;
+		}
+
+		.accordion-button:focus{
+			border-color: #0D713E;
+			box-shadow: #0D713E;
+		}
+
+		.accordion-body{
+			color: white;
+			p{
+				font-size: 125%;
+			}
+		}
+
+		.accordion-button:not(.collapsed) {
+			background-color: transparent !important;
+		}
+
 	}
 
-	.accordion-button{
-		color: white;
+	/*DESKTOP*/
+	@media (min-width: 1100px) {
+		
+		.carousel{
+			width: 70%;
+			margin-bottom: 5%;
+		}
+
+		.card__servicios{
+				margin-top: 17%;
+		    	margin-right: 30%;
+		    	margin-left: 9%;
+		}
+
+		.accordion-button{
+			color: white;
+			font-size: 70%;
+		}
+
+		.accordion-button:focus{
+			border-color: #0D713E;
+			box-shadow: #0D713E;
+		}
+
+		.accordion-body{
+			color: white;
+		}
+
+		.accordion-button:not(.collapsed) {
+			background-color: transparent !important;
+		}
+
 	}
-
-	.accordion-button:focus{
-		border-color: #0D713E;
-		box-shadow: #0D713E;
-	}
-
-	.accordion-body{
-		color: white;
-	}
-
-	.accordion-button:not(.collapsed) {
-		background-color: transparent !important;
-	}
-
-
 
 }

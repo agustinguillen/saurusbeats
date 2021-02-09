@@ -29,7 +29,8 @@ header {
       margin: 0;
       margin-left: 45%; }
     header nav div #navbarNav .nav-link {
-      color: white; } }
+      color: white;
+      font-size: 125%; } }
   @media (min-width: 1100px) {
     header nav div #header__logo {
       filter: drop-shadow(7px 7px 7px black);
@@ -38,7 +39,8 @@ header {
       margin: 0;
       margin-left: 3%; }
     header nav div #navbarNav .nav-link {
-      color: white; }
+      color: white;
+      font-size: 100%; }
     header nav div #navbarNav .nav-link:hover {
       color: yellow;
       text-shadow: #FFFF4E 1px 1px 5px; } }
@@ -172,18 +174,25 @@ body {
       overflow: hidden; }
       body .ultimo iframe {
         position: absolute;
-        padding-top: 1%;
+        padding-top: 2%;
         margin-left: 15%;
         width: 70%;
-        height: 70%;
-        margin-bottom: 5%;
+        height: 80%;
+        margin-bottom: 10%;
         line-height: 0; }
     body .fondo {
       background-image: url("../assets/img/fondo.png");
       background-repeat: no-repeat; }
+      body .fondo .parrafo {
+        margin-left: 10%;
+        margin-bottom: 0%;
+        width: 80%; }
+        body .fondo .parrafo p {
+          font-size: 150%;
+          margin-top: -140%; }
     body .card {
       margin: 20%;
-      margin-top: 60%;
+      margin-top: 40%;
       background-color: #d2d2d2;
       color: black; }
       body .card .btn-card {
@@ -193,17 +202,18 @@ body {
       text-align: center;
       padding: 0%;
       position: relative;
-      height: 20%;
+      height: 30%;
       margin: 0;
       margin-top: 5%; }
       body .intro .intro__tarjeta {
         overflow: hidden;
         border: solid 2px white;
-        background-color: black;
+        /*background-color: black;*/
+        background-image: url("../assets/gif/estrellas2.gif");
         padding: 1%;
         display: inline-block;
-        width: 250px;
-        height: 300px;
+        width: 300px;
+        height: 350px;
         padding: 2%;
         margin: 2%;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -211,7 +221,9 @@ body {
         body .intro .intro__tarjeta .intro__tarjeta__img {
           height: 20%;
           width: 25%;
-          border: none; } }
+          border: none; }
+        body .intro .intro__tarjeta p {
+          font-size: 150%; } }
   @media (min-width: 1100px) {
     body h1 {
       font-family: Lato;
@@ -304,6 +316,8 @@ body {
           height: 20%;
           width: 25%;
           border: none; }
+        body .intro .intro__tarjeta p {
+          font-size: 100%; }
       body .intro .intro__tarjeta:hover {
         border: solid 2px yellow;
         transition: 1s;
@@ -313,27 +327,66 @@ body {
         padding-bottom: 5%;
         padding: 0; } }
 
-.body_servicios .carousel {
-  width: 70%;
-  margin-bottom: 5%; }
-
-.body_servicios .card__servicios {
-  margin-top: 17%;
-  margin-right: 30%;
-  margin-left: 9%; }
-
-.body_servicios .accordion-button {
-  color: white; }
-
-.body_servicios .accordion-button:focus {
-  border-color: #0D713E;
-  box-shadow: #0D713E; }
-
-.body_servicios .accordion-body {
-  color: white; }
-
-.body_servicios .accordion-button:not(.collapsed) {
-  background-color: transparent !important; }
+.body_servicios {
+  /*MOBILE*/
+  /*TABLET*/
+  /*DESKTOP*/ }
+  @media (min-width: 300px) {
+    .body_servicios .carousel {
+      width: 70%;
+      margin-bottom: 5%; }
+    .body_servicios .card__servicios {
+      margin-top: 17%;
+      margin-right: 30%;
+      margin-left: 30%; }
+    .body_servicios .accordion-button {
+      color: white; }
+    .body_servicios .accordion-button:focus {
+      border-color: #0D713E;
+      box-shadow: #0D713E; }
+    .body_servicios .accordion-body {
+      color: white; }
+    .body_servicios .accordion-button:not(.collapsed) {
+      background-color: transparent !important; } }
+  @media (min-width: 767px) {
+    .body_servicios .carousel {
+      width: 85%;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    .body_servicios .card__servicios {
+      margin-top: 17%;
+      margin-right: 18%;
+      margin-left: 18%; }
+    .body_servicios .accordion-button {
+      color: white;
+      font-size: 125%; }
+    .body_servicios .accordion-button:focus {
+      border-color: #0D713E;
+      box-shadow: #0D713E; }
+    .body_servicios .accordion-body {
+      color: white; }
+      .body_servicios .accordion-body p {
+        font-size: 125%; }
+    .body_servicios .accordion-button:not(.collapsed) {
+      background-color: transparent !important; } }
+  @media (min-width: 1100px) {
+    .body_servicios .carousel {
+      width: 70%;
+      margin-bottom: 5%; }
+    .body_servicios .card__servicios {
+      margin-top: 17%;
+      margin-right: 30%;
+      margin-left: 9%; }
+    .body_servicios .accordion-button {
+      color: white;
+      font-size: 70%; }
+    .body_servicios .accordion-button:focus {
+      border-color: #0D713E;
+      box-shadow: #0D713E; }
+    .body_servicios .accordion-body {
+      color: white; }
+    .body_servicios .accordion-button:not(.collapsed) {
+      background-color: transparent !important; } }
 
 .body_tracks .playlist {
   width: 90%;
@@ -603,7 +656,28 @@ body {
           font-size: 100%;
           font-weight: lighter;
           color: white;
-          margin-left: 5%; } }
+          margin-left: 5%; }
+        .footer .footer_div .links {
+          margin-top: 30%;
+          margin-bottom: 0%;
+          text-align: right; }
+          .footer .footer_div .links .nav-link {
+            color: white; }
+      .footer .footer__div2 .linkedin {
+        width: 8%;
+        margin-bottom: 5%; }
+      .footer .footer__div2 .creditos {
+        text-align: center;
+        color: white;
+        background-color: black;
+        margin: 0;
+        padding-top: 0; }
+        .footer .footer__div2 .creditos p {
+          margin-top: 0;
+          padding-top: 0;
+          font-family: Raleway;
+          font-size: 100%;
+          font-weight: lighter; } }
   @media (min-width: 1100px) {
     .footer {
       background-color: black;
