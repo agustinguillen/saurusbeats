@@ -16,7 +16,8 @@ header {
   @media (min-width: 300px) {
     header nav div #header__logo {
       width: 30%;
-      margin-left: 40%; }
+      margin-left: 35%;
+      margin-right: 35%; }
     header nav div #navbarNav .nav-link {
       color: white; } }
   @media (min-width: 767px) {
@@ -97,20 +98,27 @@ body {
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
-        height: 40%;
+        height: 90%;
         line-height: 0; }
     body .fondo {
       background-image: url("../assets/img/fondo.png");
       background-repeat: no-repeat; }
+      body .fondo .parrafo {
+        margin-left: 10%;
+        margin-bottom: 0%;
+        width: 80%; }
+        body .fondo .parrafo p {
+          font-size: 100%;
+          margin-top: -190%; }
     body .card {
       margin: 20%;
       /*margin-right: 40%;*/
-      margin-top: 60%;
+      margin-top: 70%;
       background-color: #d2d2d2;
-      color: red; }
+      color: black; }
       body .card .btn-card {
         background-color: #0D713E;
-        color: black; }
+        color: white; }
     body .intro {
       text-align: center;
       padding: 0%;
@@ -125,14 +133,14 @@ body {
         padding: 1%;
         display: inline-block;
         width: 250px;
-        height: 200px;
-        padding: 2%;
+        height: 250px;
+        padding: 3%;
         margin: 2%;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         color: white; }
         body .intro .intro__tarjeta .intro__tarjeta__img {
           height: 20%;
-          width: 25%;
+          width: 20%;
           border: none; } }
   @media (min-width: 767px) {
     body h1 {
@@ -333,12 +341,10 @@ body {
   /*DESKTOP*/ }
   @media (min-width: 300px) {
     .body_servicios .carousel {
-      width: 70%;
+      width: 90%;
       margin-bottom: 5%; }
     .body_servicios .card__servicios {
-      margin-top: 17%;
-      margin-right: 30%;
-      margin-left: 30%; }
+      margin: 20%; }
     .body_servicios .accordion-button {
       color: white; }
     .body_servicios .accordion-button:focus {
@@ -388,66 +394,119 @@ body {
     .body_servicios .accordion-button:not(.collapsed) {
       background-color: transparent !important; } }
 
-.body_tracks .playlist {
-  width: 90%;
-  display: block; }
-  .body_tracks .playlist .playlist__h1 {
-    padding-top: 10%;
-    margin-left: 10%; }
-  .body_tracks .playlist .playlist__tabla {
-    padding-top: 0%;
-    margin-left: 10%; }
-    .body_tracks .playlist .playlist__tabla tr th {
-      color: white;
-      font-size: 150%;
-      font-family: Raleway;
-      font-weight: bold;
-      font-size: 130%;
-      border: 1px solid grey;
-      margin: auto;
-      padding: 1%; }
-    .body_tracks .playlist .playlist__tabla tr td {
-      font-family: Raleway;
-      font-weight: lighter;
-      padding: 1%;
-      border: 1px solid grey;
-      margin: auto; }
-      .body_tracks .playlist .playlist__tabla tr td h3 {
+@media (min-width: 767px) {
+  body .playlist {
+    width: 90%;
+    display: block; }
+    body .playlist .playlist__h1 {
+      padding-top: 30%;
+      margin-left: 10%; }
+    body .playlist .playlist__tabla {
+      padding-top: 0%;
+      margin-left: 10%; }
+      body .playlist .playlist__tabla tr th {
         color: white;
-        font-size: 125%; }
-      .body_tracks .playlist .playlist__tabla tr td p {
-        color: white; }
-    .body_tracks .playlist .playlist__tabla .playlist__tabla__redes {
-      width: 5%;
-      margin-right: 5%;
-      margin-left: 5%; }
-
-.body_tracks .licencia {
-  text-align: center;
-  padding: 0%;
-  position: relative;
-  height: 20%;
-  margin: 0; }
-  .body_tracks .licencia .licencia__tarjeta {
-    color: white;
-    overflow: hidden;
-    border: solid 2px white;
-    background-color: black;
-    /*background-image: url("../assets/gif/estrellas2.gif");*/
-    padding: 1%;
-    margin: 2%;
-    margin-top: 5%;
-    display: inline-block;
-    width: 25%;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+        font-size: 150%;
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 130%;
+        border: 1px solid grey;
+        margin: auto;
+        padding: 1%; }
+      body .playlist .playlist__tabla tr td {
+        font-family: Raleway;
+        font-weight: lighter;
+        padding: 1%;
+        border: 1px solid grey;
+        margin: auto; }
+        body .playlist .playlist__tabla tr td h3 {
+          color: white;
+          font-size: 125%; }
+        body .playlist .playlist__tabla tr td p {
+          color: white; }
+      body .playlist .playlist__tabla .playlist__tabla__redes {
+        width: 5%;
+        margin-right: 5%;
+        margin-left: 5%; }
+  body .licencia {
+    text-align: center;
+    padding: 0%;
+    position: relative;
+    height: 15%;
+    margin: 0; }
+    body .licencia .licencia__tarjeta {
+      color: white;
+      overflow: hidden;
+      border: solid 2px white;
+      background-color: black;
+      /*background-image: url("../assets/gif/estrellas2.gif");*/
+      padding: 1%;
+      margin: 1%;
+      margin-top: 5%;
+      display: inline-block;
+      width: 27%;
+      height: 715px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); } }
 
 @media (min-width: 1100px) {
-  .body_tracks .licencia__tarjeta:hover {
+  body .playlist {
+    width: 90%;
+    display: block; }
+    body .playlist .playlist__h1 {
+      padding-top: 10%;
+      margin-left: 10%; }
+    body .playlist .playlist__tabla {
+      padding-top: 0%;
+      margin-left: 10%; }
+      body .playlist .playlist__tabla tr th {
+        color: white;
+        font-size: 150%;
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 130%;
+        border: 1px solid grey;
+        margin: auto;
+        padding: 1%; }
+      body .playlist .playlist__tabla tr td {
+        font-family: Raleway;
+        font-weight: lighter;
+        padding: 1%;
+        border: 1px solid grey;
+        margin: auto; }
+        body .playlist .playlist__tabla tr td h3 {
+          color: white;
+          font-size: 125%; }
+        body .playlist .playlist__tabla tr td p {
+          color: white; }
+      body .playlist .playlist__tabla .playlist__tabla__redes {
+        width: 5%;
+        margin-right: 5%;
+        margin-left: 5%; }
+  body .licencia {
+    text-align: center;
+    padding: 0%;
+    position: relative;
+    height: 20%;
+    margin: 0; }
+    body .licencia .licencia__tarjeta {
+      color: white;
+      overflow: hidden;
+      border: solid 2px white;
+      background-color: black;
+      /*background-image: url("../assets/gif/estrellas2.gif");*/
+      padding: 1%;
+      margin: 2%;
+      margin-top: 5%;
+      display: inline-block;
+      width: 25%;
+      height: 500px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+  body .licencia__tarjeta:hover {
     border: solid 2px yellow;
     transition: 0.5s;
     color: black;
     background-color: grey; }
-  .body_tracks .licencia__tarjeta h3 {
+  body .licencia__tarjeta h3 {
     text-align: center;
     padding-bottom: 5%; } }
 
@@ -479,7 +538,7 @@ body {
       padding-right: 15%;
       padding-bottom: 5%; }
       body .fondo_contacto h1 {
-        padding-top: 25%; }
+        padding-top: 34%; }
       body .fondo_contacto form .selector {
         width: 20%; } }
   @media (min-width: 1100px) {
@@ -625,7 +684,28 @@ body {
           font-size: 100%;
           font-weight: lighter;
           color: white;
-          margin-left: 10%; } }
+          margin-left: 10%; }
+        .footer .footer__div .links {
+          margin-top: 3%;
+          margin-bottom: 0%;
+          text-align: right; }
+          .footer .footer__div .links .nav-link {
+            color: white; }
+      .footer .footer__div2 .linkedin {
+        width: 8%;
+        margin-bottom: 5%; }
+      .footer .footer__div2 .creditos {
+        text-align: center;
+        color: white;
+        background-color: black;
+        margin: 0;
+        padding-top: 0; }
+        .footer .footer__div2 .creditos p {
+          margin-top: 0;
+          padding-top: 0;
+          font-family: Raleway;
+          font-size: 100%;
+          font-weight: lighter; } }
   @media (min-width: 767px) {
     .footer {
       background-color: black;
