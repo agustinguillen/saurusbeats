@@ -68,7 +68,7 @@ body {
                 margin-left: 5%;
                 margin-right: 5%;
                 width: 90%;
-                height: 90%;
+                height: 100%;
                 line-height: 0;
 
             }
@@ -84,7 +84,7 @@ body {
 
                 p {
                     font-size: 100%;
-                    margin-top: -190%;
+                    margin-top: -210%;
                 }
             }
         }
@@ -114,7 +114,7 @@ body {
             .intro__tarjeta {
                 overflow: hidden;
                 border: solid 2px white;
-                background-color: black;
+                background-image: url("../assets/gif/estrellas2.gif");
                 padding: 1%;
                 display: inline-block;
                 width: 250px;
@@ -319,12 +319,12 @@ body {
 
             iframe {
                 position: absolute;
-                padding-top: 5%;
-                padding-bottom: 1%;
+                padding-top: 2%;
+                padding-bottom: 2%;
                 margin-left: 15%;
                 margin-right: 5%;
-                width: 70%;
-                height: 83%;
+                width: 80%;
+                height: 90%;
                 margin-bottom: 5%;
                 line-height: 0;
 

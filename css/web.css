@@ -98,7 +98,7 @@ body {
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
-        height: 90%;
+        height: 100%;
         line-height: 0; }
     body .fondo {
       background-image: url("../assets/img/fondo.png");
@@ -109,7 +109,7 @@ body {
         width: 80%; }
         body .fondo .parrafo p {
           font-size: 100%;
-          margin-top: -190%; }
+          margin-top: -210%; }
     body .card {
       margin: 20%;
       /*margin-right: 40%;*/
@@ -129,7 +129,7 @@ body {
       body .intro .intro__tarjeta {
         overflow: hidden;
         border: solid 2px white;
-        background-color: black;
+        background-image: url("../assets/gif/estrellas2.gif");
         padding: 1%;
         display: inline-block;
         width: 250px;
@@ -275,12 +275,12 @@ body {
       margin-right: 0%; }
       body .ultimo iframe {
         position: absolute;
-        padding-top: 5%;
-        padding-bottom: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
         margin-left: 15%;
         margin-right: 5%;
-        width: 70%;
-        height: 83%;
+        width: 80%;
+        height: 90%;
         margin-bottom: 5%;
         line-height: 0; }
     body .fondo {
@@ -379,7 +379,8 @@ body {
   @media (min-width: 1100px) {
     .body_servicios .carousel {
       width: 70%;
-      margin-bottom: 5%; }
+      margin-bottom: 5%;
+      margin-top: 1%; }
     .body_servicios .card__servicios {
       margin-top: 17%;
       margin-right: 30%;
@@ -397,36 +398,79 @@ body {
     .body_servicios .accordion-button:not(.collapsed) {
       background-color: transparent !important; } }
 
+@media (min-width: 300px) {
+  body .playlist {
+    width: 90%;
+    display: block; }
+    body .playlist .playlist__h1 {
+      padding-top: 50%;
+      margin-left: 10%; }
+    body .playlist .list-group {
+      width: 100%;
+      margin-right: 0;
+      margin-left: 5.5%;
+      margin-bottom: 5%;
+      margin-top: 3%; }
+      body .playlist .list-group .list-group-item-mio {
+        background-color: black; }
+        body .playlist .list-group .list-group-item-mio h5 {
+          color: white; }
+        body .playlist .list-group .list-group-item-mio img {
+          height: 80px;
+          weight: 80px; }
+        body .playlist .list-group .list-group-item-mio .descripcion {
+          font-size: 90%;
+          margin-left: 10px; }
+  body .licencia {
+    text-align: center;
+    padding: 0%;
+    position: relative;
+    height: 15%;
+    margin: 0; }
+    body .licencia .licencia__tarjeta {
+      color: white;
+      overflow: hidden;
+      border: solid 2px white;
+      background-color: black;
+      /*background-image: url("../assets/gif/estrellas2.gif");*/
+      padding: 1%;
+      margin: 1%;
+      margin-top: 5%;
+      display: inline-block;
+      width: 90%;
+      height: 400px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+      body .licencia .licencia__tarjeta ul {
+        padding-top: 3%; }
+        body .licencia .licencia__tarjeta ul li {
+          background-color: black;
+          padding-bottom: 9%; }
+      body .licencia .licencia__tarjeta h3 {
+        padding-top: 1%;
+        padding-bottom: 0; } }
+
 @media (min-width: 767px) {
   body .playlist {
     width: 90%;
     display: block; }
     body .playlist .playlist__h1 {
-      padding-top: 30%;
+      padding-top: 25%;
       margin-left: 10%; }
-    body .playlist .playlist__tabla {
-      padding-top: 0%;
-      margin-left: 10%; }
-      body .playlist .playlist__tabla tr th {
-        color: white;
-        font-size: 150%;
-        font-family: Raleway;
-        font-weight: bold;
-        font-size: 130%;
-        border: 1px solid grey;
-        margin: auto;
-        padding: 1%; }
-      body .playlist .playlist__tabla tr td {
-        font-family: Raleway;
-        font-weight: lighter;
-        padding: 1%;
-        border: 1px solid grey;
-        margin: auto; }
-        body .playlist .playlist__tabla tr td h3 {
-          color: white;
-          font-size: 125%; }
-        body .playlist .playlist__tabla tr td p {
+    body .playlist .list-group {
+      margin-right: 10%;
+      margin-left: 20%;
+      margin-bottom: 5%;
+      margin-top: 3%; }
+      body .playlist .list-group .list-group-item-mio {
+        background-color: black; }
+        body .playlist .list-group .list-group-item-mio h5 {
           color: white; }
+        body .playlist .list-group .list-group-item-mio img {
+          height: 80px;
+          weight: 80px; }
+        body .playlist .list-group .list-group-item-mio .descripcion {
+          font-size: 110%;
+          margin-left: 10px; }
   body .licencia {
     text-align: center;
     padding: 0%;
@@ -444,8 +488,16 @@ body {
       margin-top: 5%;
       display: inline-block;
       width: 27%;
-      height: 715px;
-      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); } }
+      height: 100%;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+      body .licencia .licencia__tarjeta ul {
+        padding-top: 3%; }
+        body .licencia .licencia__tarjeta ul li {
+          background-color: black;
+          padding-bottom: 9%; }
+      body .licencia .licencia__tarjeta h3 {
+        padding-top: 1%;
+        padding-bottom: 0; } }
 
 @media (min-width: 1100px) {
   body .playlist {
@@ -490,13 +542,19 @@ body {
       margin-top: 5%;
       display: inline-block;
       width: 25%;
-      height: 500px;
+      height: 90%;
       box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+      body .licencia .licencia__tarjeta ul {
+        padding-top: 3%; }
+        body .licencia .licencia__tarjeta ul li {
+          background-color: black;
+          padding-bottom: 9%; }
+      body .licencia .licencia__tarjeta h3 {
+        padding-top: 1%;
+        padding-bottom: 0; }
   body .licencia__tarjeta:hover {
     border: solid 2px yellow;
-    transition: 0.5s;
-    color: black;
-    background-color: grey; }
+    transition: 0.5s; }
   body .licencia__tarjeta h3 {
     text-align: center;
     padding-bottom: 5%; } }
@@ -695,7 +753,7 @@ body {
           margin-top: 0;
           padding-top: 0;
           font-family: Raleway;
-          font-size: 100%;
+          font-size: 60%;
           font-weight: lighter; } }
   @media (min-width: 767px) {
     .footer {
