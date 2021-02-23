@@ -44,13 +44,6 @@ body {
                         }
                     }
                 }
-
-                .playlist__tabla__redes {
-                    width: 5%;
-                    margin-right: 5%;
-                    margin-left: 5%;
-
-                }
             }
         }
 
@@ -93,46 +86,34 @@ body {
                 margin-left: 10%;
             }
 
-            .playlist__tabla {
-                padding-top: 0%;
-                margin-left: 10%;
+            .list-group{
 
-                tr {
-                    th {
+                margin-right:10%;
+                margin-left: 20%;
+                margin-bottom: 5%;
+                margin-top: 3%;
+
+                .list-group-item-mio{
+                    background-color:black;
+                    h5{
                         color: white;
-                        font-size: 150%;
-                        font-family: Raleway;
-                        font-weight: bold;
-                        font-size: 130%;
-                        border: 1px solid grey;
-                        margin: auto;
-                        padding: 1%;
-
                     }
-
-                    td {
-                        font-family: Raleway;
-                        font-weight: lighter;
-                        padding: 1%;
-                        border: 1px solid grey;
-                        margin: auto;
-
-                        h3 {
-                            color: white;
-                            font-size: 125%;
-                        }
-
-                        p {
-                            color: white;
-                        }
+                    img{
+                        height: 80px;
+                        weight: 80px;
                     }
+                    .descripcion{
+                        font-size: 110%;
+                         margin-left: 10px;
+                    }
+                    
                 }
+                .list-group-item-mio:hover{
+                    background-color: #1d1d1d;
+                    small{
+                        color: white;
 
-                .playlist__tabla__redes {
-                    width: 5%;
-                    margin-right: 5%;
-                    margin-left: 5%;
-
+                    }
                 }
             }
         }

@@ -290,7 +290,8 @@ body {
         margin-bottom: 5%;
         width: 45%; }
         body .fondo .parrafo p {
-          margin-top: 0; }
+          margin-top: 0;
+          font-size: 100%; }
     body .card {
       margin-top: 17%;
       margin-right: 30%;
@@ -341,7 +342,7 @@ body {
   /*DESKTOP*/ }
   @media (min-width: 300px) {
     .body_servicios .carousel {
-      width: 90%;
+      width: 95%;
       margin-bottom: 5%; }
     .body_servicios .card__servicios {
       margin: 20%; }
@@ -391,6 +392,8 @@ body {
       box-shadow: #0D713E; }
     .body_servicios .accordion-body {
       color: white; }
+      .body_servicios .accordion-body p {
+        font-size: 100%; }
     .body_servicios .accordion-button:not(.collapsed) {
       background-color: transparent !important; } }
 
@@ -424,10 +427,6 @@ body {
           font-size: 125%; }
         body .playlist .playlist__tabla tr td p {
           color: white; }
-      body .playlist .playlist__tabla .playlist__tabla__redes {
-        width: 5%;
-        margin-right: 5%;
-        margin-left: 5%; }
   body .licencia {
     text-align: center;
     padding: 0%;
@@ -455,33 +454,25 @@ body {
     body .playlist .playlist__h1 {
       padding-top: 10%;
       margin-left: 10%; }
-    body .playlist .playlist__tabla {
-      padding-top: 0%;
-      margin-left: 10%; }
-      body .playlist .playlist__tabla tr th {
-        color: white;
-        font-size: 150%;
-        font-family: Raleway;
-        font-weight: bold;
-        font-size: 130%;
-        border: 1px solid grey;
-        margin: auto;
-        padding: 1%; }
-      body .playlist .playlist__tabla tr td {
-        font-family: Raleway;
-        font-weight: lighter;
-        padding: 1%;
-        border: 1px solid grey;
-        margin: auto; }
-        body .playlist .playlist__tabla tr td h3 {
-          color: white;
-          font-size: 125%; }
-        body .playlist .playlist__tabla tr td p {
+    body .playlist .list-group {
+      margin-right: 10%;
+      margin-left: 20%;
+      margin-bottom: 5%;
+      margin-top: 3%; }
+      body .playlist .list-group .list-group-item-mio {
+        background-color: black; }
+        body .playlist .list-group .list-group-item-mio h5 {
           color: white; }
-      body .playlist .playlist__tabla .playlist__tabla__redes {
-        width: 5%;
-        margin-right: 5%;
-        margin-left: 5%; }
+        body .playlist .list-group .list-group-item-mio img {
+          height: 80px;
+          weight: 80px; }
+        body .playlist .list-group .list-group-item-mio .descripcion {
+          font-size: 110%;
+          margin-left: 10px; }
+      body .playlist .list-group .list-group-item-mio:hover {
+        background-color: #1d1d1d; }
+        body .playlist .list-group .list-group-item-mio:hover small {
+          color: white; }
   body .licencia {
     text-align: center;
     padding: 0%;
