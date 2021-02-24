@@ -107,10 +107,11 @@ body {
       body .fondo .parrafo {
         margin-left: 10%;
         margin-bottom: 10%;
-        width: 80%; }
+        width: 80%;
+        display: inline-block; }
         body .fondo .parrafo p {
           font-size: 100%;
-          margin-top: -240%; }
+          margin-top: -235%; }
     body .card {
       margin: 15%;
       /*margin-right: 40%;*/
