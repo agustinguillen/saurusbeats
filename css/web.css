@@ -426,7 +426,8 @@ body {
             weight: 80px; }
           body .playlist .list-group .list-group-item-mio .descripcion {
             font-size: 90%;
-            margin-left: 10px; }
+            margin-left: 10px;
+            color: white; }
     body .licencia {
       text-align: center;
       padding: 0%;
