@@ -434,8 +434,8 @@ body {
             color: white; }
         body .playlist .list-group .modal {
           margin-top: 40%;
-          margin-left: 3%;
-          margin-right: 3%; }
+          margin-left: 10%;
+          margin-right: 10%; }
           body .playlist .list-group .modal .modal-content {
             color: white;
             background-color: #1d1d1d;
