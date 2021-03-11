@@ -70,22 +70,22 @@
         <div class="row">
             <div class="col-12">
                 <div class="intro flex">
-                    <div class="intro intro__tarjeta">
+                    <div class="intro intro__tarjeta showMobile" id="card1" ontouchstart = "replace('card1','card2')">
                         <img src="assets/img/rec.png" alt="Icono de Beats" class="intro intro__tarjeta intro__tarjeta__img">
                         <h3>BEATS DE CATÁLOGO</h3>
                         <p>Venta de beats de catálogo. Tipos de licencia Leasing, Premium & Exclusive.</p>
                     </div>
-                    <div class="intro intro__tarjeta">
+                    <div class="intro intro__tarjeta hideMobile" id="card2" ontouchstart = "replace('card2','card3')">
                         <img src="assets/img/beat.png" alt="Icono de Microfono" class="intro intro__tarjeta intro__tarjeta__img">
                         <h3>BEATS A PEDIDO</h3>
                         <p>Beats hechos a pedido del cliente en base a sus gustos y referencias. Tipos de licencia Leasing, Premium & Exclusive.</p>
                     </div>
-                    <div class="intro intro__tarjeta">
+                    <div class="intro intro__tarjeta hideMobile" id="card3" ontouchstart = "replace('card3','card4')">
                         <img src="assets/img/mezcla.png" alt="Icono de Monitor" class="intro intro__tarjeta intro__tarjeta__img">
                         <h3>MEZCLA DIGITAL</h3>
                         <p>Mezcla de proyectos siguiendo los criterios tanto de la industria como del cliente.</p>
                     </div>
-                    <div class="intro intro__tarjeta">
+                    <div class="intro intro__tarjeta hideMobile" id="card4" ontouchstart = "replace('card4','card1')">
                         <img src="assets/img/master.png" alt="Icono de Archivo de Audio" class="intro intro__tarjeta intro__tarjeta__img">
                         <h3>MASTERING DIGITAL</h3>
                         <p>Mastering Digital criterio técnico y artístico perfecto para tu canción.</p>
@@ -127,6 +127,7 @@
         </div>
     </footer>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>
