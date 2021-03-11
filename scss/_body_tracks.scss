@@ -31,27 +31,37 @@ body {
 
                 .modal{
                     margin-top: 40%;
-                    margin-left: 2%;
-                    margin-right: 2%;
+                    margin-left: 3%;
+                    margin-right: 3%;
                     .modal-content{
                         color: white;
                         background-color: #1d1d1d;
                         width:fit-content;
                         display:inline-block;
                         padding: 0;
+                        margin: 0;
 
-                        .modal-body{
-                            iframe {
-                                width: 18em;
-                                height: 13em;
-                            }
-                        }
-                        
                         .modal-header{
+                            padding: 3%;
                             .btn-close{
                                 color: white;
                             }
                         }
+
+                        .modal-body{
+                            padding: 0;
+                            iframe {
+                                width: 20em;
+                                height: 13em;
+                            }
+                        }
+
+                        .modal-footer{
+                            padding: 3%;
+                            margin: 0;
+                        }
+                        
+                        
                         
                     }
                 }
