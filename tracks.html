@@ -48,7 +48,7 @@
             <h1 class="h1Animacion">BEATS <br class="brh1">DE<br class="brh1"> CATÁLOGO</h1>
             <div class="playlist">
                 <div class="list-group">
-                      <a href="https://www.youtube.com/watch?v=DF4X0XOVk2o&ab_channel=SaurusBeats" class="list-group-item list-group-item-action list-group-item-mio">
+                      <a data-bs-toggle="modal" data-bs-target="#modalCromo" class="list-group-item list-group-item-action list-group-item-mio">
                         <div class="d-flex w-100 justify-content-between">
                           <h5 class="mb-1">Cromo</h5>
                           <small>77 bpm</small>
@@ -56,7 +56,24 @@
                         <img src="assets/img/cromo.jpg" class="artwork" alt="arte de tapa">
                         <small class="descripcion">Lo-Fi Sad Trap Type Beat.</small>
                       </a>
-                      <a href="https://www.youtube.com/watch?v=ve37nX9g3g0&ab_channel=SaurusBeats" class="list-group-item list-group-item-action list-group-item-mio">
+                      <!-- Modal Cromo -->
+                                    <div class="modal fade" id="modalCromo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="modalCromoLabel">Cromo</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body" >
+                                                <iframe src="https://www.youtube.com/embed/DF4X0XOVk2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                      <a data-bs-toggle="modal" data-bs-target="#modalMarea" class="list-group-item list-group-item-action list-group-item-mio">
                         <div class="d-flex w-100 justify-content-between">
                           <h5 class="mb-1">Marea</h5>
                           <small>120 bpm</small>
@@ -64,7 +81,24 @@
                         <img src="assets/img/marea.jpg" class="artwork" alt="arte de tapa">
                         <small class="descripcion">Reggaeton Type Beat.</small>
                       </a>
-                      <a href="https://www.youtube.com/watch?v=CNwKleaVh5M&ab_channel=SaurusBeats" class="list-group-item list-group-item-action list-group-item-mio">
+                        <!-- Modal Marea -->
+                                    <div class="modal fade" id="modalMarea" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="modalMareaLabel">Marea</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe src="https://www.youtube.com/embed/ve37nX9g3g0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                      <a data-bs-toggle="modal" data-bs-target="#modalSummer" class="list-group-item list-group-item-action list-group-item-mio">
                         <div class="d-flex w-100 justify-content-between">
                           <h5 class="mb-1">Summer Dreams</h5>
                           <small>123 bpm</small>
@@ -72,7 +106,24 @@
                         <img src="assets/img/summer.jpg" class="artwork" alt="arte de tapa">
                         <small class="descripcion">Pop Trap Type Beat.</small>
                       </a>
-                      <a href="https://www.youtube.com/watch?v=OeznhfB3Mxg&ab_channel=SaurusBeats" class="list-group-item list-group-item-action list-group-item-mio">
+                      <!-- Modal Summer -->
+                                    <div class="modal fade" id="modalSummer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="modalSummerLabel">Summer Dreams</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe src="https://www.youtube.com/embed/CNwKleaVh5M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                      <a data-bs-toggle="modal" data-bs-target="#modalSick" class="list-group-item list-group-item-action list-group-item-mio">
                         <div class="d-flex w-100 justify-content-between">
                           <h5 class="mb-1">$ick Party</h5>
                           <small>140 bpm</small>
@@ -80,7 +131,25 @@
                         <img src="assets/img/sick.jpg" class="artwork" alt="arte de tapa">
                         <small class="descripcion">Hard Trap Type Beat.</small>
                       </a>
-                      <a href="https://www.youtube.com/results?search_query=saurus+beats+radioactive" class="list-group-item list-group-item-action list-group-item-mio">
+                      <!-- Modal Sick -->
+                                    <div class="modal fade" id="modalSick" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="modalSickLabel">$ick Party</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe src="https://www.youtube.com/embed/OeznhfB3Mxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                      
+                      <a data-bs-toggle="modal" data-bs-target="#modalRadioactive" class="list-group-item list-group-item-action list-group-item-mio">
                         <div class="d-flex w-100 justify-content-between">
                           <h5 class="mb-1">Radioactive</h5>
                           <small>93 bpm</small>
@@ -88,6 +157,23 @@
                         <img src="assets/img/radioactive.jpg" class="artwork" alt="arte de tapa">
                         <small class="descripcion">Old School Rap Type Beat.</small><br>
                       </a>
+                      <!-- Modal Radioactive -->
+                                    <div class="modal fade" id="modalRadioactive" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="modalRadioactiveLabel">Radioactive</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe id="Radioactive" src="https://www.youtube.com/embed/yYgf44AJYTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
                 </div>
 
             </div>

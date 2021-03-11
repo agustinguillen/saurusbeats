@@ -432,6 +432,21 @@ body {
             font-size: 90%;
             margin-left: 10px;
             color: white; }
+        body .playlist .list-group .modal {
+          margin-top: 40%;
+          margin-left: 2%;
+          margin-right: 2%; }
+          body .playlist .list-group .modal .modal-content {
+            color: white;
+            background-color: #1d1d1d;
+            width: fit-content;
+            display: inline-block;
+            padding: 0; }
+            body .playlist .list-group .modal .modal-content .modal-body iframe {
+              width: 18em;
+              height: 13em; }
+            body .playlist .list-group .modal .modal-content .modal-header .btn-close {
+              color: white; }
     body .licencia {
       text-align: center;
       padding: 0%;
@@ -478,6 +493,19 @@ body {
           body .playlist .list-group .list-group-item-mio .descripcion {
             font-size: 110%;
             margin-left: 10px; }
+        body .playlist .list-group .modal {
+          margin-top: 15em; }
+          body .playlist .list-group .modal .modal-content {
+            color: white;
+            background-color: #1d1d1d;
+            width: fit-content;
+            display: inline-block;
+            padding: 0; }
+            body .playlist .list-group .modal .modal-content .modal-body iframe {
+              width: 30em;
+              height: 20em; }
+            body .playlist .list-group .modal .modal-content .modal-header .btn-close {
+              color: white; }
     body .licencia {
       text-align: center;
       padding: 0%;
@@ -529,6 +557,18 @@ body {
           background-color: #1d1d1d; }
           body .playlist .list-group .list-group-item-mio:hover small {
             color: white; }
+        body .playlist .list-group .modal {
+          margin-top: 8em; }
+          body .playlist .list-group .modal .modal-content {
+            color: white;
+            background-color: #1d1d1d;
+            width: fit-content;
+            display: inline-block; }
+            body .playlist .list-group .modal .modal-content .modal-body iframe {
+              width: 25em;
+              height: 13em; }
+            body .playlist .list-group .modal .modal-content .modal-header .btn-close {
+              color: white; }
     body .licencia {
       text-align: center;
       padding: 0%;
