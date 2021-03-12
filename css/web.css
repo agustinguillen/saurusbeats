@@ -461,6 +461,10 @@ body {
       position: relative;
       height: 15%;
       margin: 0; }
+      body .licencia .hideMobile {
+        display: none; }
+      body .licencia .showMobile {
+        display: inline-block; }
       body .licencia .licencia__tarjeta {
         color: white;
         overflow: hidden;
@@ -470,7 +474,6 @@ body {
         padding: 1%;
         margin: 1%;
         margin-top: 5%;
-        display: inline-block;
         width: 90%;
         height: 150%;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
@@ -520,6 +523,10 @@ body {
       position: relative;
       height: 15%;
       margin: 0; }
+      body .licencia .hideMobile {
+        display: none; }
+      body .licencia .showMobile {
+        display: inline-block; }
       body .licencia .licencia__tarjeta {
         color: white;
         overflow: hidden;
@@ -529,7 +536,6 @@ body {
         padding: 1%;
         margin: 1%;
         margin-top: 5%;
-        display: inline-block;
         width: 27%;
         height: 58vw;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
@@ -566,7 +572,9 @@ body {
           body .playlist .list-group .list-group-item-mio:hover small {
             color: white; }
         body .playlist .list-group .modal {
-          margin-top: 8em; }
+          margin-top: 8em;
+          margin-left: 4em;
+          margin-right: 4em; }
           body .playlist .list-group .modal .modal-content {
             color: white;
             background-color: #1d1d1d;

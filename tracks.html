@@ -64,7 +64,7 @@
                                             <h5 class="modal-title" id="modalCromoLabel">Cromo</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body" >
+                                            <div class="modal-body">
                                                 <iframe src="https://www.youtube.com/embed/DF4X0XOVk2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                             <div class="modal-footer">
@@ -180,7 +180,7 @@
         </div>
         <div class="row">
             <div class="licencia flex">
-                <div class="licencia licencia__tarjeta">
+                <div class="licencia licencia__tarjeta showMobile" id="leasing" ontouchstart="replace('leasing', 'trackout');">
                     <h3>WAV LEASING</h3>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Instrumental en formato WAV</li>
@@ -191,7 +191,7 @@
                     </ul>
                     <h3>$15 USD</h3>
                 </div>
-                <div class="licencia licencia__tarjeta">
+                <div class="licencia licencia__tarjeta hideMobile" id="trackout" ontouchstart="replace('trackout', 'exclusiva')">
                     <h3>WAV + MULTITRACK</h3>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Todas las pistas en formato WAV</li>
@@ -202,7 +202,7 @@
                     </ul>
                     <h3>$35 USD</h3>
                 </div>
-                <div class="licencia licencia__tarjeta">
+                <div class="licencia licencia__tarjeta hideMobile" id="exclusiva" ontouchstart="replace('exclusiva', 'leasing')">
                     <h3>EXCLUSIVA</h3>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Instrumental en formato WAV</li>
@@ -249,6 +249,9 @@
         </div>
     </footer>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/pause.js"></script>
 </body>
 
 </html>

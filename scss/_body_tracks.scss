@@ -77,6 +77,14 @@ body {
 
             margin: 0;
 
+            .hideMobile{
+                display: none;
+            }
+
+            .showMobile{
+                display: inline-block;
+            }
+
             .licencia__tarjeta {
                 color: white;
                 overflow: hidden;
@@ -86,7 +94,6 @@ body {
                 padding: 1%;
                 margin: 1%;
                 margin-top: 5%;
-                display: inline-block;
                 width: 90%;
                 height: 150%;
                 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -172,6 +179,14 @@ body {
             height: 15%;
             margin: 0;
 
+            .hideMobile{
+                display: none;
+            }
+
+            .showMobile{
+                display: inline-block;
+            }
+
             .licencia__tarjeta {
                 color: white;
                 overflow: hidden;
@@ -181,7 +196,6 @@ body {
                 padding: 1%;
                 margin: 1%;
                 margin-top: 5%;
-                display: inline-block;
                 width: 27%;
                 height: 58vw;
                 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -243,6 +257,8 @@ body {
 
                 .modal{
                     margin-top: 8em;
+                    margin-left: 4em;
+                    margin-right: 4em;
                     .modal-content{
                         color: white;
                         background-color: #1d1d1d;
